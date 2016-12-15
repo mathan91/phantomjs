@@ -39,7 +39,7 @@ var nodeconf = function(ip, port, hub, proxy, version) {
             capabilities: [{
                 browserName: "phantomjs",
                 version: version,
-                platform: ghostdriver.system.os.name + '-' + ghostdriver.system.os.version + '-' + ghostdriver.system.os.architecture,
+//                 platform: ghostdriver.system.os.name + '-' + ghostdriver.system.os.version + '-' + ghostdriver.system.os.architecture,
                 maxInstances: 1,
                 seleniumProtocol: "WebDriver"
             }],
